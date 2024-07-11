@@ -101,12 +101,12 @@ width: 1140px;
 height: 1395px;
 left: 148px;
 right: 152px;
-top: 857px;
+top: 800px;
 bottom: 2993px;
 text-align: center;
+margin-top: 0;
 }
-
-#First-box{
+.First-box{
 margin-top: 20px;
     display: flex;
     gap: 250px;
@@ -165,3 +165,51 @@ margin-top: 20px;
 padding: 12px 20px 12px 20px;
 
 }
+
+.Second-box2{
+    position: static;
+    width: 607px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+}
+Second-box1{
+    width: 223.2px;
+height: 101.32px;
+}
+
+.Second-box{
+    margin-top: 30px;
+        display: flex;
+        gap: 150px;
+        padding: 60px;
+    }
+
+    .Third-box{
+        margin-top: 40px;
+            display: flex;
+            gap: 250px;
+        }
+        
+        .Third-box1{
+            position: static;
+        width: 607px;
+        height: 210px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0px;
+        
+        }
+        .Third-box2{
+        /* Group */
+        width: 259.56px;
+        height: 210.01px;
+        margin-top: 50px;
+        
+        }
