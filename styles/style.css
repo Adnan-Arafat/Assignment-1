@@ -213,3 +213,74 @@ height: 101.32px;
         margin-top: 50px;
         
         }
+
+        .My-Inspiration{
+          /* Frame 15 */
+position: absolute;
+width: 1140px;
+height: 775px;
+left: 148px;
+right: 152px;
+margin-top: 1350px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+        }
+        .inspiration-title{
+width: 852px;
+height: 37px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+            color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+        }
+        .inspiration-paragraph{
+            position: static;
+width: 852px;
+height: 52px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-top: 0;
+        }
+        .inspiration-video-holder{
+            flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 48px 0px;
+            box-sizing: border-box;
+border: 2px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+
+        }
+.Inspirational-video{
+        align-items: center;
+margin: 20px;
+}
+       
+        
