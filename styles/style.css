@@ -7,6 +7,8 @@ body{
 
 #banner{
     background-image: url(assets/Hero-bg.png);
+    background-size: cover;
+    
 }
 #banner .banner-content{
 position: absolute;
@@ -73,4 +75,93 @@ rgb(255, 255, 255);
     text-align: center;
     margin-top: 0;
     margin-bottom: 44px;
+}
+
+
+.section-title{
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    margin: 15px 0px;
+}
+
+.section-description{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+opacity: 0.7;
+
+}
+
+
+.Why-web-development{
+    position: absolute;
+width: 1140px;
+height: 1395px;
+left: 148px;
+right: 152px;
+top: 857px;
+bottom: 2993px;
+text-align: center;
+}
+
+#First-box{
+margin-top: 20px;
+    display: flex;
+    gap: 250px;
+}
+
+.First-box1{
+    position: static;
+width: 607px;
+height: 210px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+}
+.First-box2{
+/* Group */
+width: 259.56px;
+height: 210.01px;
+margin-top: 50px;
+
+}
+
+.Box-title{
+    color: rgba(13, 19, 33, 0.7);
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 16px;
+}
+
+.Box-paragraph{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 0;
+}
+
+.box-button{
+
+    position: static;
+width: 150px;
+height: 48px;
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+margin-top: 20px;
+padding: 12px 20px 12px 20px;
+
 }
