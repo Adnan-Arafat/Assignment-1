@@ -281,6 +281,234 @@ border-radius: 16px;
 .Inspirational-video{
         align-items: center;
 margin: 20px;
+border-radius: 16px;
+
+}
+
+.current-target{
+    position: absolute;
+    width: 1140px;
+    height: 775px;
+    left: 150px;
+    right: 150px;
+    margin-top: 2200px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
 }
        
-        
+.target{
+/* Frame 12 */
+position: static;
+width: 900px;
+height: 115px;
+align-items: center;
+text-align: center;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 48px 0px;
+}
+.target-title{
+/* My Current Target */
+position: static;
+width: 852px;
+height: 39px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.icons{
+display: flex;
+gap: 15px;
+margin-top: 30px;
+position: static;
+align-items: center;
+margin: 30px;
+}
+
+.html{
+    /* Frame 10 */
+position: static;
+width: 300px;
+height: 300px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+border-radius: 16px;
+
+background: rgba(255, 76, 30, 0.05);
+}
+.css{
+
+    /* Frame 16 */
+position: static;
+width: 300px;
+height: 300px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 24px;
+border-radius: 16px;
+
+background: rgba(0, 76, 232, 0.05);
+}
+
+
+.javaScript{
+
+    /* Frame 17 */
+position: static;
+width: 300px;
+height: 300px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 24px;
+border-radius: 16px;
+
+background: rgba(255, 223, 0, 0.05);
+}
+
+.icons-title{
+    margin-bottom: 10px;
+}
+
+.support{
+    position: absolute;
+    width: 1140px;
+    height: 350px;
+    left: 100px;
+    right: 150px;
+    margin-top: 3000px;
+    margin-bottom: 20px;
+    /* Auto layout */
+    background-image: url(../assets/handshake.png);
+    background-size: cover;
+    border-radius: 16px;
+    padding: 40px 32px 40px 32px;
+align-items: center ;
+
+
+}
+
+.support_title{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    left: 400px;
+    right: 240px;
+    align-items: center;
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+padding: 0px;
+}
+
+.support_description{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+.submit-problem input[type="text"]{
+
+    height: 50px;
+    width: 300px;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+}
+.submit-problem input[type="submit"]{
+font-weight: 600;
+    height: 50px;
+    width: 70px;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+background: rgb(255, 255, 255);
+}
+
+.submit-problem{
+
+    display: flex;
+    padding-left: 400px;
+    gap: 10px;
+    margin-top: 70px;
+}
+
+footer{
+
+    width: 1440px;
+height: 100px;
+margin-top: 3600px;
+display: flex;
+gap: 800px;
+}
+.footer-line{
+    margin-left: 100px;
+}
+.footer-icons{
+    margin-left: none;
+}
+
